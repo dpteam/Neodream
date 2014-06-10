@@ -15,7 +15,7 @@
 IsValidClass(id)
 {
 	// Class doesn't go beyond 310 and can't be negative
-	if(skinid > 310 || skinid < 0)
+	if(id > 310 || id < 0)
 		return false;
 	
 	// A blacklist
