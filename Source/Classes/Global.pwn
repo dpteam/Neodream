@@ -21,20 +21,7 @@ IsValidClass(id)
 	// A blacklist
 	switch(id)
 	{
-		case 3:
-		case 4:
-		case 5:
-		case 6:
-		case 8:
-		case 42:
-		case 65:
-		case 74:
-		case 86:
-		case 119:
-		case 149:
-		case 208:
-		case 273:
-		case 289:
+		case 3..6, 8, 42, 65, 74, 86, 119, 149, 208, 273, 289:
 			return false;
 		default:
 			// Not blacklisted! Correct class…
