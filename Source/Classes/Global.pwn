@@ -23,8 +23,8 @@ IsValidClass(id)
 	{
 		case 3..6, 8, 42, 65, 74, 86, 119, 149, 208, 273, 289:
 			return false;
-		default:
-			// Not blacklisted! Correct class…
-			return true;
 	}
+	
+	// Not blacklisted! Correct class…
+	return true;
 }
